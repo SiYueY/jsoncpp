@@ -60,6 +60,7 @@ using CharReaderPtr = std::auto_ptr<CharReader>;
 #endif
 
 // Implementation of class Features
+// Features类的实现
 // ////////////////////////////////
 
 Features::Features() = default;
@@ -76,6 +77,7 @@ Features Features::strictMode() {
 }
 
 // Implementation of class Reader
+// Readers类的实现
 // ////////////////////////////////
 
 bool Reader::containsNewLine(Reader::Location begin, Reader::Location end) {
@@ -83,6 +85,7 @@ bool Reader::containsNewLine(Reader::Location begin, Reader::Location end) {
 }
 
 // Class Reader
+// Readers类
 // //////////////////////////////////////////////////////////////////
 
 Reader::Reader() : features_(Features::all()) {}
